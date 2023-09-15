@@ -11,3 +11,8 @@ function positiveSum(arr) {
 
 }
 
+SOLUTION
+function positiveSum(arr) {
+   let positiveArr = arr.filter((num) => num >= 0) 
+     return positiveArr.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+}
